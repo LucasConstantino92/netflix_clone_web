@@ -67,7 +67,6 @@ header nav a:hover{
 .filme-principal .descricao{
     margin-top: 10px;
     margin-bottom:40px;
-    margin-left: 15px;
 }
 
 .filme-principal .logo{
@@ -94,4 +93,9 @@ header nav a:hover{
 
 .botao i{
     margin-right: 8px;
+}
+
+.filme-principal .container{
+    width: 70%;
+    margin-left: 12px;
 }
