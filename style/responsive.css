@@ -8,10 +8,36 @@
         margin-top: 5px;
         width: 300px;
     }
+
+}
+
+@media screen and (min-width: 500px){
+    iframe {
+        width: 500px;
+        height: 300px;
+    }
 }
 
 @media screen and (min-width: 1000px){
     .descricao{
         width: 50%;
+    }
+
+    .filme-principal{
+        height: 900px;
+    }
+
+    iframe {
+        width: 800px;
+        height: 600px;
+        margin-left: 0px;
+    }
+}
+
+@media screen and (min-width: 1400px){
+    iframe {
+        margin-left: 100px;
+        width: 1280px;
+        height: 720px;
     }
 }
