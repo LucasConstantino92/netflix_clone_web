@@ -9,9 +9,14 @@
     box-sizing: border-box;
 }
 
+header .logo{
+    font-style:bold;
+}
+
 body{
     background: var(--preto);
     font-family: 'Times New Roman', Times, serif;
+    color: white;
 }
 
 header .container{
@@ -32,8 +37,61 @@ header nav a{
     text-decoration: none;
     color: #AAA;
     margin-right: 10px;
+    letter-spacing: 1.2px;
+    font-weight: bold;
+    border-bottom: 2px solid transparent;
+    transition: .5s;
 }
 
 header nav a:hover{
     color:#fff;
+    border-color: var(--vermelho);
+}
+
+/*Filme Principal*/
+
+.filme-principal{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%) ,url('/img/capa_filme_homemaranha2.jpg');
+
+    height: 500px;
+    background-position: top;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filme-principal .descricao{
+    margin-top: 10px;
+    margin-bottom:40px;
+    margin-left: 15px;
+}
+
+.filme-principal .logo{
+    margin-bottom: 15px;
+}
+
+.botao{
+    background-color: rgba(0,0,0,.50);
+    color: white;
+
+    border: none;
+    padding: 15px;
+    margin-right: 15px;
+    font-size: 12px;
+
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.botao:hover{
+    background-color: white;
+    color: var(--preto);
+}
+
+.botao i{
+    margin-right: 8px;
 }

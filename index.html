@@ -4,13 +4,14 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style/main.css">
+        <script src="https://kit.fontawesome.com/17dd586d8f.js" crossorigin="anonymous"></script>
         <title>NETFLIX CLONE</title>
     </head>
     <body>
-        <header>
+        <header class="cabecalho">
             <div class="container">
                 <h2 class="logo">NETFLIX</h2>
-                <nav>
+                <nav class="navegacao">
                     <a href="#">Inicio</a>
                     <a href="#">Séries</a>
                     <a href="#">Filmes</a>
@@ -18,5 +19,24 @@
                 </nav>
             </div>
         </header>
+
+        <main>
+            <div class="filme-principal">
+                <div class="container">
+                    <img class="logo" src="img/homem_aranha_logo.png" height="100px">
+                    <p class="descricao">Peter Parker é desmascarado e não consegue mais separar sua vida normal dos grandes riscos de ser um super-herói. Quando ele pede ajuda ao Doutor Estranho, os riscos se tornam ainda mais perigosos, e o forçam a descobrir o que realmente significa ser o Homem-Aranha.</p>
+                    <div class="botoes">
+                        <button role="button" class="botao">
+                            <i class="fa-solid fa-play"></i>
+                            ASSISTIR AGORA
+                        </button>
+                        <button role="button" class="botao">
+                            <i class="fa-solid fa-circle-info"></i>
+                            MAIS INFORMAÇÕES
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </main>
     </body>
 </html>
